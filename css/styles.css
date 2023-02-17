@@ -6,10 +6,21 @@ html {
   font-family: "Roboto";
   font-style: normal;
 }
+/*Body*/
+.body-main {
+  width: 1600px;
+  margin: auto;
+}
+
 /*Heder and main -background*/
 .page-header,
 .main {
   background: #ffffff;
+}
+.page-header {
+  width: 1600px;
+  height: 80px;
+  border: 1px solid #ECECEC;
 }
 
 /*Heder-Felx-Organization*/
@@ -21,6 +32,13 @@ html {
 .navigation-list-right {
   display: flex;
   gap: 30px;
+}
+
+.navigation-logo-first {
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
 }
 
 /*Navigation Logo*/
@@ -88,9 +106,13 @@ html {
   justify-content: center;
 }
 
+.buttons-list {
+  padding: 6px 22px 6px 22px;
+}
+
 /*Hover Butons*/
 
-.buttons:hover {
+.buttons-list:hover {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -117,6 +139,11 @@ html {
   justify-content: center;
 }
 
+.image {
+  width: 30%;
+  margin: 10px;
+}
+
 /* Title and Paragarf -images*/
 
 .title-image {
@@ -136,10 +163,6 @@ html {
 }
 
 /* Footer*/
-
-.footer {
-  background: #2f303a;
-}
 
 .footer-address,
 .footer-tel-email {
@@ -175,3 +198,158 @@ html {
   content: "Studio";
   color: #ffffff;
 }
+
+.navigation-logo-first {
+  position: absolute;
+  left: 215px;
+  top: 24px;
+  border-radius: nullpx;
+}
+ 
+.nave-one {
+  left: 453px;
+  top: 32px;
+  border-radius: nullpx;
+  border: 1px #eeeeee;
+  position: absolute;
+}
+
+.nave-tow {
+  left: 545px;
+  top: 32px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.nave-trhee {
+  left: 653px;
+  top: 32px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.nave-four {
+  left: 1088px;
+  top: 32px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.nave-five {
+  left: 1263px;
+  top: 32px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.first-button {
+  left: 542px;
+  top: 174px;
+  border-radius: 4px;
+  position: absolute;
+}
+.second-button {
+  left: 614px;
+  top: 174px;
+  border-radius: 4px;
+  position: absolute;
+}
+.three-button {
+  left: 742px;
+  top: 174px;
+  border-radius: 4px;
+  position: absolute;
+}
+.four-button {
+  left: 833px;
+  top: 174px;
+  border-radius: 4px;
+  position: absolute;
+}
+.five-button {
+  left: 937px;
+  top: 174px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.first-img {
+  left: 215px;
+  top: 262px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.second-img {
+  left: 615px;
+  top: 262px;
+  border-radius: 0px;
+  position: absolute;
+}
+.three-img {
+  left: 1015px;
+  top: 262px;
+  border-radius: 0px;
+  position: absolute;
+}
+.four-img {
+  left: 215px;
+  top: 696px;
+  border-radius: 0px;
+  position: absolute;
+}
+.five-img {
+  left: 615px;
+  top: 696px;
+  border-radius: 0px;
+  position: absolute;
+}
+.six-img {
+  left: 1015px;
+  top: 696px;
+  border-radius: 0px;
+  position: absolute;
+}
+.seven-img {
+  left: 215px;
+  top: 1130px;
+  border-radius: 0px;
+  position: absolute;
+}
+.eght-img {
+  left: 615px;
+  top: 1130px;
+  border-radius: 0px;
+  position: absolute;
+}
+.nine-img {
+  left: 1015px;
+  top: 1130px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.footer {
+  display: flex;
+  height: 251px;
+  width: 1600px;
+  left: 0px;
+  top: 1628px;
+  border-radius: 0px;
+  position: absolute;
+  margin: auto;
+  background: #2f303a;
+}
+
+.images{
+ Width:370px;
+ Height:404px;
+}
+
+.first-img, .second-img, .three-img, .four-img, .five-img, .six-img, .seven-img, .eght-img, .nine-img{border: 1px solid #EEEEEE ;     Width: 370px;
+  Height: 404px;}
+
+.title-image{padding-left: 24px;
+ }
+.parafarf{padding-left: 24px;
+ padding-bottom: 25px;}
