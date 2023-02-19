@@ -12,7 +12,7 @@ html {
   margin: auto;
 }
 
-/*Heder and main -background*/
+/*Header and main -background*/
 .page-header,
 .main {
   background: #ffffff;
@@ -22,9 +22,7 @@ html {
   height: 80px;
   border: 1px solid #ececec;
 }
-
-/*Heder-Felx-Organization*/
-
+/*Header-Felx-Organization*/
 .nav-navigation {
   display: flex;
 }
@@ -40,9 +38,7 @@ html {
   top: 24px;
   left: 215px;
 }
-
 /*Navigation Logo*/
-
 .navigation-logo-first {
   font-family: "Raleway";
   font-style: normal;
@@ -53,19 +49,16 @@ html {
   color: #000000;
   text-decoration: none;
 }
-
 .navigation-logo-first,
 .navigation-list li a {
   list-style: none;
 }
-
 .navigation-logo-first::before {
   content: "Web";
   color: #2196f3;
 }
 
 /*Navigation List*/
-
 .navigation-list {
   font-family: "Roboto";
   font-style: normal;
@@ -81,15 +74,12 @@ html {
   color: #757575;
   text-decoration: none;
 }
-
 /*Hover List*/
-
 .navigation-list:hover {
   color: #2196f3;
 }
 
 /* Buttons */
-
 .buttons {
   font-family: "Roboto";
   font-style: normal;
@@ -99,19 +89,15 @@ html {
   letter-spacing: 0.03em;
   color: #212121;
 }
-
 .buttons {
   display: flex;
   gap: 8px;
   justify-content: center;
 }
-
 .buttons-list {
   padding: 6px 22px 6px 22px;
 }
-
 /*Hover Butons*/
-
 .buttons-list:hover {
   color: #ffffff;
   background: #2196f3;
@@ -120,15 +106,11 @@ html {
   border-radius: 4px;
   border: #2196f3;
 }
-
 /*Unstyled List*/
-
 .unstyled-list {
   list-style: none;
 }
-
 /*Images*/
-
 .images-section {
   display: flex;
 }
@@ -138,14 +120,12 @@ html {
   gap: 30px;
   justify-content: center;
 }
-
 .image {
   width: 30%;
   margin: 10px;
 }
 
 /* Title and Paragarf -images*/
-
 .title-image {
   font-weight: 700;
   font-size: 18px;
@@ -153,7 +133,6 @@ html {
   letter-spacing: 0.06em;
   color: #212121;
 }
-
 .parafarf {
   font-weight: 400;
   font-size: 16px;
@@ -163,7 +142,6 @@ html {
 }
 
 /* Footer*/
-
 .footer-address,
 .footer-tel-email {
   text-decoration: none;
@@ -174,15 +152,12 @@ html {
   line-height: 16px;
   letter-spacing: 0.03em;
 }
-
 .footer-address {
   color: #ffffff;
 }
-
 .footer-tel-email {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .navigation-logo-second {
   font-family: "Raleway";
   font-style: normal;
@@ -193,19 +168,16 @@ html {
   color: #2196f3;
   text-decoration: none;
 }
-
 .navigation-logo-second::after {
   content: "Studio";
   color: #ffffff;
 }
-
 .navigation-logo-first {
   position: absolute;
   left: 215px;
   top: 24px;
   border-radius: nullpx;
 }
-
 .nave-one {
   left: 453px;
   top: 32px;
@@ -213,35 +185,30 @@ html {
   border: 1px #eeeeee;
   position: absolute;
 }
-
 .nave-tow {
   left: 545px;
   top: 32px;
   border-radius: nullpx;
   position: absolute;
 }
-
 .nave-trhee {
   left: 653px;
   top: 32px;
   border-radius: nullpx;
   position: absolute;
 }
-
 .nave-four {
   left: 1088px;
   top: 32px;
   border-radius: nullpx;
   position: absolute;
 }
-
 .nave-five {
   left: 1263px;
   top: 32px;
   border-radius: nullpx;
   position: absolute;
 }
-
 .first-button {
   left: 542px;
   top: 174px;
@@ -272,14 +239,12 @@ html {
   border-radius: 4px;
   position: absolute;
 }
-
 .first-img {
   left: 215px;
   top: 262px;
   border-radius: 0px;
   position: absolute;
 }
-
 .second-img {
   left: 615px;
   top: 262px;
@@ -328,7 +293,6 @@ html {
   border-radius: 0px;
   position: absolute;
 }
-
 .footer {
   display: flex;
   height: 251px;
@@ -340,12 +304,10 @@ html {
   margin: auto;
   background: #2f303a;
 }
-
 .images {
   width: 370px;
   height: 404px;
 }
-
 .first-img,
 .second-img,
 .three-img,
@@ -359,7 +321,6 @@ html {
   width: 370px;
   height: 404px;
 }
-
 .title-image {
   padding-left: 24px;
 }
@@ -367,7 +328,6 @@ html {
   padding-left: 24px;
   padding-bottom: 25px;
 }
-
 .footer-logo {
   padding-left: 175px;
   padding-top: 60px;
@@ -376,14 +336,315 @@ html {
   padding-left: 88px;
   padding-top: 28px;
 }
-
 .email,
 .tel {
   padding-left: 175px;
 }
-
 .footer-address-footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+/*INDEX*/
+
+.main-title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.button-first-index {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  radius: 4px;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border: 0px;
+  padding: 10px;
+  margin-top: 30px;
+}
+.title-top {
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+  background-color: #2f303a;
+  position: absolute;
+}
+
+.big-title {
+  height: 120px;
+  width: 696px;
+  left: 452px;
+  top: 280px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+.main-button {
+  left: 720px;
+  top: 440px;
+  border-radius: nullpx;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  margin: auto;
+  color: #ffffff;
+  margin-left: 650px;
+}
+
+.first-title-obj {
+  height: 16px;
+  width: 270px;
+  left: 215px;
+  top: 774px;
+  border-radius: nullpx;
+}
+.fisrt-paragraf-obj {
+  height: 75px;
+  width: 270px;
+  left: 215px;
+  top: 800px;
+  border-radius: nullpx;
+}
+
+.second-title-obj {
+  height: 16px;
+  width: 270px;
+  left: 515px;
+  top: 774px;
+  border-radius: nullpx;
+}
+.second-paragraf-obj {
+  height: 75px;
+  width: 270px;
+  left: 515px;
+  top: 800px;
+  border-radius: nullpx;
+}
+.three-title-obj {
+  height: 16px;
+  width: 270px;
+  left: 815px;
+  top: 774px;
+  border-radius: nullpx;
+}
+.three-paragraf-obj {
+  height: 75px;
+  width: 270px;
+  left: 815px;
+  top: 800px;
+  border-radius: nullpx;
+}
+.four-title-obj {
+  height: 16px;
+  width: 270px;
+  left: 1115px;
+  top: 774px;
+  border-radius: nullpx;
+}
+
+.four-paragraf-obj {
+  height: 75px;
+  width: 270px;
+  left: 1115px;
+  top: 800px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.first-title-obj,
+.second-title-obj,
+.three-title-obj,
+.four-title-obj,
+.fisrt-paragraf-obj,
+.second-paragraf-obj,
+.three-paragraf-obj,
+.four-paragraf {
+  position: absolute;
+}
+
+.first-title-obj,
+.second-title-obj,
+.three-title-obj,
+.four-title-obj {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.fisrt-paragraf-obj,
+.second-paragraf-obj,
+.three-paragraf-obj,
+.four-paragraf-obj {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.imagines-man {
+  display: flex;
+}
+.imagines-one {
+  height: 294px;
+  width: 370px;
+  left: 215px;
+  top: 1061px;
+  border-radius: 0px;
+  position: absolute;
+}
+.imagines-tow {
+  height: 294px;
+  width: 370px;
+  left: 615px;
+  top: 1061px;
+  border-radius: 0px;
+  position: absolute;
+}
+.imagines-three {
+  height: 294px;
+  width: 370px;
+  left: 1015px;
+  top: 1061px;
+  border-radius: 0px;
+  position: absolute;
+}
+
+.title-main-second {
+  height: 42px;
+  width: 165px;
+  left: 718px;
+  top: 1543px;
+  border-radius: nullpx;
+  position: absolute;
+}
+
+.our-team {
+  display: flex;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.ocupation {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.person-one {
+  height: 368px;
+  width: 270px;
+  left: 215px;
+  top: 1635px;
+  border-radius: [object Object]px;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.person-tow {
+  height: 368px;
+  width: 270px;
+  left: 515px;
+  top: 1635px;
+  border-radius: [object Object]px;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.person-trhee {
+  height: 368px;
+  width: 270px;
+  left: 815px;
+  top: 1635px;
+  border-radius: [object Object]px;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.person-four {
+  height: 368px;
+  width: 270px;
+  left: 1115px;
+  top: 1635px;
+  border-radius: [object Object]px;
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.name-person-1 {
+  margin-left: 63px;
+}
+.ocupation-1 {
+  margin-left: 70px;
+  color: #757575;
+}
+.name-person-2 {
+  margin-left: 92px;
+}
+.ocupation-2 {
+  margin-left: 72px;
+  color: #757575;
+}
+
+.name-person-3 {
+  margin-left: 91px;
+}
+
+.ocupation-3 {
+  margin-left: 97px;
+  color: #757575;
+}
+
+.name-person-4 {
+  margin-left: 90px;
+}
+.ocupation-4 {
+  margin-left: 90px;
+  color: #757575;
+}
+
+.footer-first-page {
+  height: 251px;
+  width: 1600px;
+  left: 0px;
+  top: 2097px;
+  border-radius: 0px;
+  position: absolute;
+  background-color: #2f303a;
+}
+
+.imagines-one {
+  border: 1px solid #eeeeee;
 }
