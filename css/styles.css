@@ -7,9 +7,22 @@ html {
   font-style: normal;
 }
 /*Heder and main -background*/
-.page-header,
-.main {
+
+.container {
+  width: 1200px;
   background: #ffffff;
+  margin: auto;
+}
+
+.container-footer {
+  margin: auto;
+  width: 1200px;
+}
+
+.container-section-one {
+  margin: auto;
+  width: 1200px;
+  margin-top: 0;
 }
 
 /*Navigation Logo*/
@@ -51,6 +64,12 @@ html {
 .navigation-list-right li a {
   color: #757575;
   text-decoration: none;
+}
+
+.tel {
+  height: 16px;
+  width: 113px;
+  border-radius: nullpx;
 }
 
 /*Hover List*/
@@ -136,6 +155,7 @@ html {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  padding-top: 60px;
 }
 
 .navigation-logo-2::after {
@@ -148,13 +168,11 @@ html {
 /*Header*/
 
 .main {
-  width: 1600px;
 }
 
 .page-header {
   align-items: start;
   height: 80px;
-  width: 1600px;
 }
 
 .page-header,
@@ -165,7 +183,6 @@ html {
 }
 
 .navigation-logo-1 {
-  margin-left: 215px;
   margin-right: 53px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -191,7 +208,6 @@ html {
   display: flex;
   margin-top: 36px;
   justify-content: center;
-  width: 1600px;
   margin-bottom: 23.5px;
 }
 
@@ -204,7 +220,6 @@ html {
 
 .images-main {
   display: flex;
-  width: 1600px;
 }
 
 .images-list {
@@ -212,6 +227,8 @@ html {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
+  padding-inline-start: 0px;
+  margin-bottom: 94px;
 }
 
 .images-border {
@@ -225,15 +242,9 @@ html {
 
 /*Footer*/
 
-.navigation-logo-2 {
-  padding-top: 60px;
-  margin-left: 215px;
-}
-
 .footer {
   height: 251px;
-  width: 1600px;
-  margin-top: 94px;
+  margin-top: 0px;
   background-color: #2f303a;
   flex-direction: column;
   display: flex;
@@ -241,13 +252,13 @@ html {
 .adress-main {
   display: flex;
   margin-top: 28px;
-  margin-left: 175px;
 }
 
 .adress {
   flex-direction: column;
   gap: 12px;
   display: flex;
+  padding-inline-start: 0px;
 }
 
 /*INDEX STYLE*/
@@ -264,7 +275,6 @@ html {
 }
 
 .body {
-  width: 1600px;
   margin: 0px;
 }
 
@@ -306,14 +316,14 @@ html {
 .section-one {
   background-color: #2f303a;
   height: 600px;
-  width: 1600px;
   border-radius: 0px;
   display: flex;
   flex-direction: column;
 }
 .button-main-title {
   display: flex;
-  margin-left: 640px;
+  margin-left: 535px;
+  padding-inline-start: 0px;
 }
 
 /* Oue Crieria*/
@@ -373,19 +383,19 @@ html {
 }
 
 .what-we-do-div {
-  width: 1600px;
 }
 .what-we-do-images {
   gap: 30px;
   justify-content: center;
   padding-inline-start: 0px;
+  margin-left: 15px;
 }
 
 /*Ouer Team*/
 
 .our-team {
   height: 648px;
-  width: 1600px;
+
   border-radius: 0px;
   background-color: #f5f4fa;
   display: flex;
@@ -433,7 +443,6 @@ html {
 .footer-index {
   display: flex;
   height: 251px;
-  width: 1600px;
   margin-top: 0px;
   background-color: #2f303a;
   flex-direction: column;
