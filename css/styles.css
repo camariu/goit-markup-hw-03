@@ -17,6 +17,7 @@ html {
 .container-footer {
   margin: auto;
   width: 1200px;
+  
 }
 
 .container-section-one {
@@ -24,6 +25,11 @@ html {
   width: 1200px;
   margin-top: 0;
 }
+
+.heder-line{
+ border: 1px solid #ECECEC
+}
+
 
 /*Navigation Logo*/
 
