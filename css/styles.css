@@ -26,6 +26,13 @@ html {
   margin-top: 0;
 }
 
+.container-ouer-team{
+  width: 1200px;
+  background: #F5F4FA;
+  margin: auto;
+  height: 648px;
+}
+
 .heder-line{
  border: 1px solid #ECECEC
 }
@@ -406,7 +413,7 @@ html {
   background-color: #f5f4fa;
   display: flex;
   flex-direction: column;
-  margin-top: 94px;
+  margin-top: 77px;
 }
 .our-team-title {
   font-size: 36px;
@@ -417,6 +424,7 @@ html {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 
 .our-team-name {
